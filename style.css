@@ -12,13 +12,24 @@ footer {
 #top-banner {
   padding-bottom: 100px;
   display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
 #mid-section {
   display: flex;
   padding-bottom: 100px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
-#last-section {
+#1stbox {
+  border-left: 7px solid;
+}
+.experience-area {
   padding-bottom: 100px;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 .gold-color {
   color: gold;
